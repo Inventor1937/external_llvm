@@ -1,5 +1,6 @@
 cc_library_static {
     name: "libLLVMAArch64CodeGen",
+    polly: false,
     defaults: [
         "llvm-lib-defaults",
         "llvm-aarch64-defaults",

@@ -1,5 +1,6 @@
 cc_library_static {
     name: "libLLVMARMCodeGen",
+    polly: false,
     defaults: [
         "llvm-lib-defaults",
         "llvm-arm-defaults",
